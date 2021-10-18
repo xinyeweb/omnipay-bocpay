@@ -1,0 +1,27 @@
+{
+    "name": "xinyeweb/omnipay-bocpay",
+    "type": "library",
+    "description": "bocpay",
+    "keywords": [
+        "yii2",
+        "extension",
+        "bocpay"
+    ],
+    "homepage": "https://github.com/xinyeweb/omnipay-bocpay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hunter.zhang",
+            "email": "htmail.zhang@gmail.com",
+            "homepage": "https://github.com/xinyeweb/omnipay-bocpay"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\BOCPay\\": ""
+        }
+    },
+    "require": {
+        "omnipay/common": "^3.0"
+    }
+}
